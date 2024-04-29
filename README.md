@@ -13,6 +13,8 @@ This is an old miner that will be replaced shortly and only supports one device 
 ### Doesn't connect to device based on my DNA
 Some devices don't report their DNA until after the bitstream is loaded, so you can specify the device by serial number instead using the same flag. 
 For devices that report their serial number with an A-D for each of the sub-devices/interfaces on the FTDI chip, use the root serial number without A-D.  
+### Err % is higher than 1.5%
+Set your clock a little lower or voltage a little higher. Too low of clock or voltage can also cause this. See the coin specific thread on Discord regarding your bitstream.
 ### sqrl_bridge
 If your device uses sqrl_bridge, currently there is only support on Linux.
 
