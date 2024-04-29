@@ -8,6 +8,11 @@ sudo rmmod ftdi_sio
 sudo rmmod usbserial
 sudo ./FPGAMinerGram...
 ```
+### Only detecting one device
+This is an old miner that will be replaced shortly and only supports one device per instance of the miner software. Run a second instance for your second device and specify the device you wish it to connect to with the ```-z``` option using either the serial number or the DNA.
+### Doesn't connect to device based on my DNA
+Some devices don't report their DNA until after the bitstream is loaded, so you can specify the device by serial number instead using the same flag. 
+For devices that report their serial number with an A-D for each of the sub-devices/interfaces on the FTDI chip, use the root serial number without A-D.  
 ### sqrl_bridge
 If your device uses sqrl_bridge, currently there is only support on Linux.
 
