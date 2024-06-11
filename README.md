@@ -1,5 +1,5 @@
 # FPGA Miner Gram
-Latest is v2.1.1
+Latest is v2.1.4
 
 ## Troubeshooting
 ### Device/Bitstream not found/recognized on Linux
